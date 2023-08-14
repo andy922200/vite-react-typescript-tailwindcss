@@ -53,6 +53,10 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-namespace": "off",
         "no-shadow": "off",
+        "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
+        "react/jsx-first-prop-new-line": ["error", "multiline"],
+        "react/jsx-closing-bracket-location": [1, "tag-aligned"],
+        "react/jsx-closing-tag-location": "error",
         "import/extensions": [
             "error",
             "ignorePackages",
